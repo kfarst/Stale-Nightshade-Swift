@@ -1,0 +1,36 @@
+PODS:
+  - AFNetworking (HEAD based on 2.5.0):
+    - AFNetworking/NSURLConnection (= HEAD based on 2.5.0)
+    - AFNetworking/NSURLSession (= HEAD based on 2.5.0)
+    - AFNetworking/Reachability (= HEAD based on 2.5.0)
+    - AFNetworking/Security (= HEAD based on 2.5.0)
+    - AFNetworking/Serialization (= HEAD based on 2.5.0)
+    - AFNetworking/UIKit (= HEAD based on 2.5.0)
+  - AFNetworking/NSURLConnection (HEAD based on 2.5.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (HEAD based on 2.5.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (HEAD based on 2.5.0)
+  - AFNetworking/Security (HEAD based on 2.5.0)
+  - AFNetworking/Serialization (HEAD based on 2.5.0)
+  - AFNetworking/UIKit (HEAD based on 2.5.0):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - FCOverlay (HEAD based on 1.0.6)
+  - SVProgressHUD (HEAD based on 1.1.2)
+
+DEPENDENCIES:
+  - AFNetworking (HEAD)
+  - FCOverlay (HEAD)
+  - SVProgressHUD (HEAD)
+
+SPEC CHECKSUMS:
+  AFNetworking: 0f54cb5d16ce38c1b76948faffb8d5fb705021c7
+  FCOverlay: 892209883b363e1b0b403e90be1e36a244819fce
+  SVProgressHUD: da7a49e789af645d9279ffbca62318945a832438
+
+COCOAPODS: 0.35.0
