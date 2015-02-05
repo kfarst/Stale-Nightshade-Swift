@@ -11,21 +11,33 @@ import UIKit
 class MovieDetailViewController: UIViewController {
 
     @IBOutlet weak var backgroundImage: UIImageView!
+    @IBOutlet weak var movieSummaryView: UIView!
+    @IBOutlet weak var titeLabel: UILabel!
+    @IBOutlet weak var synopsisLabel: UILabel!
+    @IBOutlet var panRecognizer: UIPanGestureRecognizer!
+    
     var movie: NSDictionary!
+    var summaryViewStartingPoint: CGFloat!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        var posters = movie["posters"] as NSDictionary
-        var posterUrl = posters["profile"] as String
+        let posters = movie["posters"] as NSDictionary
+        let posterUrl = posters["profile"] as String
         var url = NSURL(string: posterUrl)
         
         self.backgroundImage.setImageWithURL(url)
         
-        //if let data = NSData(contentsOfURL: url!) {
-        //    self.view.backgroundColor = UIColor(patternImage: UIImage(data: data)!)
-        //}
-        // Do any additional setup after loading the view.
+        let originalUrl = posterUrl.stringByReplacingOccurrencesOfString("tmb", withString: "ori")
+
+        url = NSURL(string: originalUrl)
+        
+        self.backgroundImage.setImageWithURL(url)
+        
+        self.titeLabel.text = movie["title"] as? String
+        self.synopsisLabel.text = movie["synopsis"] as? String
+        self.synopsisLabel.sizeToFit()
+        self.summaryViewStartingPoint = CGFloat(self.movieSummaryView.center.y)
     }
 
     override func didReceiveMemoryWarning() {
@@ -33,7 +45,22 @@ class MovieDetailViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
+    @IBAction func dragMovieDetailView(sender: UIPanGestureRecognizer) {
+        println(self.summaryViewStartingPoint)
+        self.view.bringSubviewToFront(sender.view!)
+        var translation = sender.translationInView(self.view)
+        var posterCenter = CGFloat(self.backgroundImage.center.y)
+        
+        if (sender.view!.center.y < self.summaryViewStartingPoint && sender.view!.center.y > posterCenter) {
+            sender.view!.center = CGPointMake(sender.view!.center.x, sender.view!.center.y + translation.y)
+        } else if (sender.view!.center.y >= self.summaryViewStartingPoint && (sender.view!.center.y + translation.y) < self.summaryViewStartingPoint) {
+            sender.view!.center = CGPointMake(sender.view!.center.x, sender.view!.center.y + translation.y)
+        } else if (sender.view!.center.y <= posterCenter && (sender.view!.center.y + translation.y) > posterCenter) {
+            sender.view!.center = CGPointMake(sender.view!.center.x, sender.view!.center.y + translation.y)
+        }
+        
+        sender.setTranslation(CGPointZero, inView: self.view)
+    }
     /*
     // MARK: - Navigation
 

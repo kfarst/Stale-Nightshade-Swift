@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CAF5C93595A085BB22657060"
+               BlueprintIdentifier = "85F211051A49512075513BD4"
                BuildableName = "libPods-Stale Nightshade Swift-FCOverlay.a"
                BlueprintName = "Pods-Stale Nightshade Swift-FCOverlay"
                ReferencedContainer = "container:Pods.xcodeproj">

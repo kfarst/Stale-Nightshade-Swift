@@ -1,1028 +1,534 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>1C3266193655B7E3958982E7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9DEC891BFD2760F4C0AEF0F8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>252DB29A1A744E3600D442AD</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>MovieCell.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>252DB29B1A744E3600D442AD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>252DB29A1A744E3600D442AD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2546AA221A761C50000EE570</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Stale Nightshade Swift-Bridging-Header.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>255F05541A71661800470F22</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>255F055F1A71661800470F22</string>
-				<string>255F05751A71661800470F22</string>
-				<string>255F055E1A71661800470F22</string>
-				<string>2546AA221A761C50000EE570</string>
-				<string>B2B52F77A25F649953C2F4A6</string>
-				<string>6DA29309F7B96442D403ACE5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>255F05551A71661800470F22</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0610</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>Kevin Farst</string>
-				<key>TargetAttributes</key>
-				<dict>
-					<key>255F055C1A71661800470F22</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>6.1.1</string>
-					</dict>
-					<key>255F05711A71661800470F22</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>6.1.1</string>
-						<key>TestTargetID</key>
-						<string>255F055C1A71661800470F22</string>
-					</dict>
-				</dict>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>255F05581A71661800470F22</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-				<string>Base</string>
-			</array>
-			<key>mainGroup</key>
-			<string>255F05541A71661800470F22</string>
-			<key>productRefGroup</key>
-			<string>255F055E1A71661800470F22</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>255F055C1A71661800470F22</string>
-				<string>255F05711A71661800470F22</string>
-			</array>
-		</dict>
-		<key>255F05581A71661800470F22</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>255F057A1A71661800470F22</string>
-				<string>255F057B1A71661800470F22</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>255F05591A71661800470F22</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>25C85DB71A77F338006AB88E</string>
-				<string>255F05631A71661800470F22</string>
-				<string>255F05831A71FE5B00470F22</string>
-				<string>252DB29B1A744E3600D442AD</string>
-				<string>25C85DBF1A77FC6E006AB88E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>255F055A1A71661800470F22</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>1C3266193655B7E3958982E7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>255F055B1A71661800470F22</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>255F05681A71661800470F22</string>
-				<string>255F056D1A71661800470F22</string>
-				<string>255F056A1A71661800470F22</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>255F055C1A71661800470F22</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>255F057C1A71661800470F22</string>
-			<key>buildPhases</key>
-			<array>
-				<string>4BCE5DE768B61812635A4CDF</string>
-				<string>255F05591A71661800470F22</string>
-				<string>255F055A1A71661800470F22</string>
-				<string>255F055B1A71661800470F22</string>
-				<string>F434722D2EDFCF4481DC2E15</string>
-				<string>7BC64C4BDA95D4F371535870</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Stale Nightshade Swift</string>
-			<key>productName</key>
-			<string>Stale Nightshade Swift</string>
-			<key>productReference</key>
-			<string>255F055D1A71661800470F22</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>255F055D1A71661800470F22</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Stale Nightshade Swift.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>255F055E1A71661800470F22</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>255F055D1A71661800470F22</string>
-				<string>255F05721A71661800470F22</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>255F055F1A71661800470F22</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>255F05621A71661800470F22</string>
-				<string>255F05661A71661800470F22</string>
-				<string>252DB29A1A744E3600D442AD</string>
-				<string>25C85DBE1A77FC6E006AB88E</string>
-				<string>255F05821A71FE5B00470F22</string>
-				<string>25C85DB61A77F338006AB88E</string>
-				<string>255F05691A71661800470F22</string>
-				<string>255F056B1A71661800470F22</string>
-				<string>255F05601A71661800470F22</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Stale Nightshade Swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>255F05601A71661800470F22</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>255F05611A71661800470F22</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>255F05611A71661800470F22</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>255F05621A71661800470F22</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>AppDelegate.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>255F05631A71661800470F22</key>
-		<dict>
-			<key>fileRef</key>
-			<string>255F05621A71661800470F22</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>255F05661A71661800470F22</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>255F05671A71661800470F22</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>255F05671A71661800470F22</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>255F05681A71661800470F22</key>
-		<dict>
-			<key>fileRef</key>
-			<string>255F05661A71661800470F22</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>255F05691A71661800470F22</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>folder.assetcatalog</string>
-			<key>path</key>
-			<string>Images.xcassets</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>255F056A1A71661800470F22</key>
-		<dict>
-			<key>fileRef</key>
-			<string>255F05691A71661800470F22</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>255F056B1A71661800470F22</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>255F056C1A71661800470F22</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>LaunchScreen.xib</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>255F056C1A71661800470F22</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.xib</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/LaunchScreen.xib</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>255F056D1A71661800470F22</key>
-		<dict>
-			<key>fileRef</key>
-			<string>255F056B1A71661800470F22</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>255F056E1A71661800470F22</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>255F05791A71661800470F22</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>255F056F1A71661800470F22</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>255F05701A71661800470F22</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>255F05711A71661800470F22</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>255F057F1A71661800470F22</string>
-			<key>buildPhases</key>
-			<array>
-				<string>255F056E1A71661800470F22</string>
-				<string>255F056F1A71661800470F22</string>
-				<string>255F05701A71661800470F22</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>255F05741A71661800470F22</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Stale Nightshade SwiftTests</string>
-			<key>productName</key>
-			<string>Stale Nightshade SwiftTests</string>
-			<key>productReference</key>
-			<string>255F05721A71661800470F22</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.unit-test</string>
-		</dict>
-		<key>255F05721A71661800470F22</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Stale Nightshade SwiftTests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>255F05731A71661800470F22</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>255F05551A71661800470F22</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>255F055C1A71661800470F22</string>
-			<key>remoteInfo</key>
-			<string>Stale Nightshade Swift</string>
-		</dict>
-		<key>255F05741A71661800470F22</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>255F055C1A71661800470F22</string>
-			<key>targetProxy</key>
-			<string>255F05731A71661800470F22</string>
-		</dict>
-		<key>255F05751A71661800470F22</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>255F05781A71661800470F22</string>
-				<string>255F05761A71661800470F22</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Stale Nightshade SwiftTests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>255F05761A71661800470F22</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>255F05771A71661800470F22</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>255F05771A71661800470F22</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>255F05781A71661800470F22</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>Stale_Nightshade_SwiftTests.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>255F05791A71661800470F22</key>
-		<dict>
-			<key>fileRef</key>
-			<string>255F05781A71661800470F22</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>255F057A1A71661800470F22</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.1</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Onone</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>255F057B1A71661800470F22</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.1</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>255F057C1A71661800470F22</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>255F057D1A71661800470F22</string>
-				<string>255F057E1A71661800470F22</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>255F057D1A71661800470F22</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>287CA3C50D9038F47B699714</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Stale Nightshade Swift/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SWIFT_OBJC_BRIDGING_HEADER</key>
-				<string>Stale Nightshade Swift-Bridging-Header.h</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Onone</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>255F057E1A71661800470F22</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>E2C9C0620EEA8019A7A41D72</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Stale Nightshade Swift/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SWIFT_OBJC_BRIDGING_HEADER</key>
-				<string>Stale Nightshade Swift-Bridging-Header.h</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>255F057F1A71661800470F22</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>255F05801A71661800470F22</string>
-				<string>255F05811A71661800470F22</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>255F05801A71661800470F22</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(TEST_HOST)</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>INFOPLIST_FILE</key>
-				<string>Stale Nightshade SwiftTests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUILT_PRODUCTS_DIR)/Stale Nightshade Swift.app/Stale Nightshade Swift</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>255F05811A71661800470F22</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(TEST_HOST)</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>INFOPLIST_FILE</key>
-				<string>Stale Nightshade SwiftTests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUILT_PRODUCTS_DIR)/Stale Nightshade Swift.app/Stale Nightshade Swift</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>255F05821A71FE5B00470F22</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>MoviesViewController.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>255F05831A71FE5B00470F22</key>
-		<dict>
-			<key>fileRef</key>
-			<string>255F05821A71FE5B00470F22</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>25C85DB61A77F338006AB88E</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>MovieDetailViewController.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>25C85DB71A77F338006AB88E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>25C85DB61A77F338006AB88E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>25C85DBE1A77FC6E006AB88E</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>Movie.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>25C85DBF1A77FC6E006AB88E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>25C85DBE1A77FC6E006AB88E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>287CA3C50D9038F47B699714</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-Stale Nightshade Swift.debug.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-Stale Nightshade Swift/Pods-Stale Nightshade Swift.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4BCE5DE768B61812635A4CDF</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>6DA29309F7B96442D403ACE5</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>9DEC891BFD2760F4C0AEF0F8</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7BC64C4BDA95D4F371535870</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Embed Pods Frameworks</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-Stale Nightshade Swift/Pods-Stale Nightshade Swift-frameworks.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>9DEC891BFD2760F4C0AEF0F8</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-Stale Nightshade Swift.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>B2B52F77A25F649953C2F4A6</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>287CA3C50D9038F47B699714</string>
-				<string>E2C9C0620EEA8019A7A41D72</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E2C9C0620EEA8019A7A41D72</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-Stale Nightshade Swift.release.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-Stale Nightshade Swift/Pods-Stale Nightshade Swift.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F434722D2EDFCF4481DC2E15</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-Stale Nightshade Swift/Pods-Stale Nightshade Swift-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>255F05551A71661800470F22</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C3266193655B7E3958982E7 /* libPods-Stale Nightshade Swift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DEC891BFD2760F4C0AEF0F8 /* libPods-Stale Nightshade Swift.a */; };
+		2504F1021A8590D10082909A /* dvdIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2504F1011A8590D10082909A /* dvdIcon.png */; };
+		2504F1041A8590E50082909A /* movieIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2504F1031A8590E50082909A /* movieIcon.png */; };
+		252DB29B1A744E3600D442AD /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252DB29A1A744E3600D442AD /* MovieCell.swift */; };
+		255F05631A71661800470F22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255F05621A71661800470F22 /* AppDelegate.swift */; };
+		255F05681A71661800470F22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 255F05661A71661800470F22 /* Main.storyboard */; };
+		255F056A1A71661800470F22 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 255F05691A71661800470F22 /* Images.xcassets */; };
+		255F056D1A71661800470F22 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 255F056B1A71661800470F22 /* LaunchScreen.xib */; };
+		255F05791A71661800470F22 /* Stale_Nightshade_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255F05781A71661800470F22 /* Stale_Nightshade_SwiftTests.swift */; };
+		259152361A7C96E3001282F7 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259152351A7C96E3001282F7 /* MoviesViewController.swift */; };
+		25C85DB71A77F338006AB88E /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C85DB61A77F338006AB88E /* MovieDetailViewController.swift */; };
+		25C85DBF1A77FC6E006AB88E /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C85DBE1A77FC6E006AB88E /* Movie.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		255F05731A71661800470F22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 255F05551A71661800470F22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 255F055C1A71661800470F22;
+			remoteInfo = "Stale Nightshade Swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2504F1011A8590D10082909A /* dvdIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dvdIcon.png; path = ../../../Desktop/dvdIcon.png; sourceTree = "<group>"; };
+		2504F1031A8590E50082909A /* movieIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = movieIcon.png; path = ../../../Desktop/movieIcon.png; sourceTree = "<group>"; };
+		252DB29A1A744E3600D442AD /* MovieCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		2546AA221A761C50000EE570 /* Stale Nightshade Swift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Stale Nightshade Swift-Bridging-Header.h"; sourceTree = "<group>"; };
+		255F055D1A71661800470F22 /* Stale Nightshade Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stale Nightshade Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		255F05611A71661800470F22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		255F05621A71661800470F22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		255F05671A71661800470F22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		255F05691A71661800470F22 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		255F056C1A71661800470F22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		255F05721A71661800470F22 /* Stale Nightshade SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stale Nightshade SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		255F05771A71661800470F22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		255F05781A71661800470F22 /* Stale_Nightshade_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stale_Nightshade_SwiftTests.swift; sourceTree = "<group>"; };
+		259152351A7C96E3001282F7 /* MoviesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MoviesViewController.swift; path = ../MoviesViewController.swift; sourceTree = "<group>"; };
+		25C85DB61A77F338006AB88E /* MovieDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
+		25C85DBE1A77FC6E006AB88E /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		287CA3C50D9038F47B699714 /* Pods-Stale Nightshade Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stale Nightshade Swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Stale Nightshade Swift/Pods-Stale Nightshade Swift.debug.xcconfig"; sourceTree = "<group>"; };
+		9DEC891BFD2760F4C0AEF0F8 /* libPods-Stale Nightshade Swift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Stale Nightshade Swift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2C9C0620EEA8019A7A41D72 /* Pods-Stale Nightshade Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stale Nightshade Swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-Stale Nightshade Swift/Pods-Stale Nightshade Swift.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		255F055A1A71661800470F22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C3266193655B7E3958982E7 /* libPods-Stale Nightshade Swift.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		255F056F1A71661800470F22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2504F0FA1A858F450082909A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				2504F1031A8590E50082909A /* movieIcon.png */,
+				2504F1011A8590D10082909A /* dvdIcon.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		255F05541A71661800470F22 = {
+			isa = PBXGroup;
+			children = (
+				255F055F1A71661800470F22 /* Stale Nightshade Swift */,
+				255F05751A71661800470F22 /* Stale Nightshade SwiftTests */,
+				255F055E1A71661800470F22 /* Products */,
+				2546AA221A761C50000EE570 /* Stale Nightshade Swift-Bridging-Header.h */,
+				B2B52F77A25F649953C2F4A6 /* Pods */,
+				6DA29309F7B96442D403ACE5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		255F055E1A71661800470F22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				255F055D1A71661800470F22 /* Stale Nightshade Swift.app */,
+				255F05721A71661800470F22 /* Stale Nightshade SwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		255F055F1A71661800470F22 /* Stale Nightshade Swift */ = {
+			isa = PBXGroup;
+			children = (
+				255F05621A71661800470F22 /* AppDelegate.swift */,
+				255F05661A71661800470F22 /* Main.storyboard */,
+				252DB29A1A744E3600D442AD /* MovieCell.swift */,
+				259152351A7C96E3001282F7 /* MoviesViewController.swift */,
+				25C85DBE1A77FC6E006AB88E /* Movie.swift */,
+				2504F0FA1A858F450082909A /* Images */,
+				25C85DB61A77F338006AB88E /* MovieDetailViewController.swift */,
+				255F05691A71661800470F22 /* Images.xcassets */,
+				255F056B1A71661800470F22 /* LaunchScreen.xib */,
+				255F05601A71661800470F22 /* Supporting Files */,
+			);
+			path = "Stale Nightshade Swift";
+			sourceTree = "<group>";
+		};
+		255F05601A71661800470F22 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				255F05611A71661800470F22 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		255F05751A71661800470F22 /* Stale Nightshade SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				255F05781A71661800470F22 /* Stale_Nightshade_SwiftTests.swift */,
+				255F05761A71661800470F22 /* Supporting Files */,
+			);
+			path = "Stale Nightshade SwiftTests";
+			sourceTree = "<group>";
+		};
+		255F05761A71661800470F22 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				255F05771A71661800470F22 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6DA29309F7B96442D403ACE5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9DEC891BFD2760F4C0AEF0F8 /* libPods-Stale Nightshade Swift.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B2B52F77A25F649953C2F4A6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				287CA3C50D9038F47B699714 /* Pods-Stale Nightshade Swift.debug.xcconfig */,
+				E2C9C0620EEA8019A7A41D72 /* Pods-Stale Nightshade Swift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		255F055C1A71661800470F22 /* Stale Nightshade Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 255F057C1A71661800470F22 /* Build configuration list for PBXNativeTarget "Stale Nightshade Swift" */;
+			buildPhases = (
+				4BCE5DE768B61812635A4CDF /* Check Pods Manifest.lock */,
+				255F05591A71661800470F22 /* Sources */,
+				255F055A1A71661800470F22 /* Frameworks */,
+				255F055B1A71661800470F22 /* Resources */,
+				F434722D2EDFCF4481DC2E15 /* Copy Pods Resources */,
+				7BC64C4BDA95D4F371535870 /* Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Stale Nightshade Swift";
+			productName = "Stale Nightshade Swift";
+			productReference = 255F055D1A71661800470F22 /* Stale Nightshade Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		255F05711A71661800470F22 /* Stale Nightshade SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 255F057F1A71661800470F22 /* Build configuration list for PBXNativeTarget "Stale Nightshade SwiftTests" */;
+			buildPhases = (
+				255F056E1A71661800470F22 /* Sources */,
+				255F056F1A71661800470F22 /* Frameworks */,
+				255F05701A71661800470F22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				255F05741A71661800470F22 /* PBXTargetDependency */,
+			);
+			name = "Stale Nightshade SwiftTests";
+			productName = "Stale Nightshade SwiftTests";
+			productReference = 255F05721A71661800470F22 /* Stale Nightshade SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		255F05551A71661800470F22 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Kevin Farst";
+				TargetAttributes = {
+					255F055C1A71661800470F22 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					255F05711A71661800470F22 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 255F055C1A71661800470F22;
+					};
+				};
+			};
+			buildConfigurationList = 255F05581A71661800470F22 /* Build configuration list for PBXProject "Stale Nightshade Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 255F05541A71661800470F22;
+			productRefGroup = 255F055E1A71661800470F22 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				255F055C1A71661800470F22 /* Stale Nightshade Swift */,
+				255F05711A71661800470F22 /* Stale Nightshade SwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		255F055B1A71661800470F22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				255F05681A71661800470F22 /* Main.storyboard in Resources */,
+				2504F1021A8590D10082909A /* dvdIcon.png in Resources */,
+				255F056D1A71661800470F22 /* LaunchScreen.xib in Resources */,
+				2504F1041A8590E50082909A /* movieIcon.png in Resources */,
+				255F056A1A71661800470F22 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		255F05701A71661800470F22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4BCE5DE768B61812635A4CDF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7BC64C4BDA95D4F371535870 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Stale Nightshade Swift/Pods-Stale Nightshade Swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F434722D2EDFCF4481DC2E15 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Stale Nightshade Swift/Pods-Stale Nightshade Swift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		255F05591A71661800470F22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25C85DB71A77F338006AB88E /* MovieDetailViewController.swift in Sources */,
+				259152361A7C96E3001282F7 /* MoviesViewController.swift in Sources */,
+				255F05631A71661800470F22 /* AppDelegate.swift in Sources */,
+				252DB29B1A744E3600D442AD /* MovieCell.swift in Sources */,
+				25C85DBF1A77FC6E006AB88E /* Movie.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		255F056E1A71661800470F22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				255F05791A71661800470F22 /* Stale_Nightshade_SwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		255F05741A71661800470F22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 255F055C1A71661800470F22 /* Stale Nightshade Swift */;
+			targetProxy = 255F05731A71661800470F22 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		255F05661A71661800470F22 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				255F05671A71661800470F22 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		255F056B1A71661800470F22 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				255F056C1A71661800470F22 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		255F057A1A71661800470F22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		255F057B1A71661800470F22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		255F057D1A71661800470F22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 287CA3C50D9038F47B699714 /* Pods-Stale Nightshade Swift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "Stale Nightshade Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Stale Nightshade Swift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		255F057E1A71661800470F22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2C9C0620EEA8019A7A41D72 /* Pods-Stale Nightshade Swift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "Stale Nightshade Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Stale Nightshade Swift-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		255F05801A71661800470F22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Stale Nightshade SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stale Nightshade Swift.app/Stale Nightshade Swift";
+			};
+			name = Debug;
+		};
+		255F05811A71661800470F22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Stale Nightshade SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stale Nightshade Swift.app/Stale Nightshade Swift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		255F05581A71661800470F22 /* Build configuration list for PBXProject "Stale Nightshade Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				255F057A1A71661800470F22 /* Debug */,
+				255F057B1A71661800470F22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		255F057C1A71661800470F22 /* Build configuration list for PBXNativeTarget "Stale Nightshade Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				255F057D1A71661800470F22 /* Debug */,
+				255F057E1A71661800470F22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		255F057F1A71661800470F22 /* Build configuration list for PBXNativeTarget "Stale Nightshade SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				255F05801A71661800470F22 /* Debug */,
+				255F05811A71661800470F22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 255F05551A71661800470F22 /* Project object */;
+}

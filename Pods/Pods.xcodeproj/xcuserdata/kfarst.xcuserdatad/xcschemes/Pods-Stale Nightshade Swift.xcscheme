@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D22C18CBB475A02655D513E0"
+               BlueprintIdentifier = "B72EAAF097F77522F2CE997E"
                BuildableName = "libPods-Stale Nightshade Swift.a"
                BlueprintName = "Pods-Stale Nightshade Swift"
                ReferencedContainer = "container:Pods.xcodeproj">

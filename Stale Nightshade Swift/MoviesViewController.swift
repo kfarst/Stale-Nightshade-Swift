@@ -9,14 +9,15 @@
 import UIKit
 
 class MoviesViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
-
+    
     @IBOutlet weak var tableView: UITableView!
+    @IBOutlet weak var searchBar: UISearchBar!
     var movies: [NSDictionary] = []
     var refreshControl:UIRefreshControl!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         tableView.delegate = self
         tableView.dataSource = self
         
@@ -25,13 +26,13 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
         fetchMovies(self)
         
         SVProgressHUD.dismiss()
-
+        
         self.refreshControl = UIRefreshControl()
         self.refreshControl.attributedTitle = NSAttributedString(string: "Pull to refersh")
         self.refreshControl.addTarget(self, action: "fetchMovies:", forControlEvents: UIControlEvents.ValueChanged)
         self.tableView.addSubview(refreshControl)
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -57,20 +58,20 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
     }
     
     //func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-    //    
+    //
     //    var selectedMovie = movies[indexPath.row]
-    //    
+    //
     //    let destinationVC = MovieDetailViewController()
     //    destinationVC.movie = selectedMovie
-    //    
+    //
     //    destinationVC.performSegueWithIdentifier("MovieDetailSegue", sender: self)
     //}
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject!) {
         if segue.identifier == "MovieDetailSegue" {
-           var indexPath = self.tableView.indexPathForSelectedRow()!
-           var movie = movies[indexPath.row] as NSDictionary
-           (segue.destinationViewController as MovieDetailViewController).movie = movie
+            var indexPath = self.tableView.indexPathForSelectedRow()!
+            var movie = movies[indexPath.row] as NSDictionary
+            (segue.destinationViewController as MovieDetailViewController).movie = movie
         }
     }
     
@@ -88,12 +89,12 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
     
     /*
     // MARK: - Navigation
-
+    
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    // Get the new view controller using segue.destinationViewController.
+    // Pass the selected object to the new view controller.
     }
     */
-
+    
 }

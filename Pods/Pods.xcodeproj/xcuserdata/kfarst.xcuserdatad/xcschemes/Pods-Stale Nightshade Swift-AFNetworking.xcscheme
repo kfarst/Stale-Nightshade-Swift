@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1D0B01F074E2BEB905729F01"
+               BlueprintIdentifier = "815080E8FA52FC399AD7E808"
                BuildableName = "libPods-Stale Nightshade Swift-AFNetworking.a"
                BlueprintName = "Pods-Stale Nightshade Swift-AFNetworking"
                ReferencedContainer = "container:Pods.xcodeproj">
