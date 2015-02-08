@@ -16,6 +16,11 @@ class MovieDetailViewController: UIViewController {
     @IBOutlet weak var synopsisLabel: UILabel!
     @IBOutlet var panRecognizer: UIPanGestureRecognizer!
     
+    
+    @IBOutlet weak var runtimeLabel: UILabel!
+    @IBOutlet weak var ratingLabel: UILabel!
+    @IBOutlet weak var criticScoreLabel: UILabel!
+    
     var movie: NSDictionary!
     var summaryViewStartingPoint: CGFloat!
     
@@ -34,9 +39,17 @@ class MovieDetailViewController: UIViewController {
         
         self.backgroundImage.setImageWithURL(url)
         
+        var runTime = movie["runtime"] as Int
+        var ratings = movie["ratings"] as NSDictionary
+        var criticRating = ratings["critics_score"] as Int
+
         self.titeLabel.text = movie["title"] as? String
         self.synopsisLabel.text = movie["synopsis"] as? String
         self.synopsisLabel.sizeToFit()
+        self.criticScoreLabel.text = "\(criticRating)%"
+        self.ratingLabel.text = movie["mpaa_rating"] as? String
+        self.runtimeLabel.text = "\(runTime) mins"
+
         self.summaryViewStartingPoint = CGFloat(self.movieSummaryView.center.y)
     }
 
