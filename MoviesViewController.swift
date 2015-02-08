@@ -101,6 +101,9 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
         var request = NSURLRequest(URL: NSURL(string: self.movieUrls.selected!)!)
         NSURLConnection.sendAsynchronousRequest(request, queue: NSOperationQueue.mainQueue()) { (response: NSURLResponse!, data: NSData!, error: NSError!) -> Void in
             if (error == nil) {
+                self.searchBar.hidden = false
+                self.networkErrorLabel.hidden = true
+                
                 var object = NSJSONSerialization.JSONObjectWithData(data, options: nil, error: nil) as NSDictionary
                 
                 self.movies = object["movies"] as [NSDictionary]

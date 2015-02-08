@@ -46,7 +46,6 @@ class MovieDetailViewController: UIViewController {
     }
     
     @IBAction func dragMovieDetailView(sender: UIPanGestureRecognizer) {
-        println(self.summaryViewStartingPoint)
         self.view.bringSubviewToFront(sender.view!)
         var translation = sender.translationInView(self.view)
         var posterCenter = CGFloat(self.backgroundImage.center.y)
